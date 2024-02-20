@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Cartão Trello</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Criar Cartão Trello</h2>
+        <form id="createCardForm">
+            <label for="productName">Nome do Produto:</label>
+            <input type="text" id="productName" placeholder="Exemplo: Farol Traseiro Scania" name="productName"
+                required>
+
+            <label for="vendorName">Nome do Vendedor:</label>
+            <input type="text" id="vendorName" placeholder="Leandro/ Weliton/ Felipe/ Erick:" name="vendorName"
+                required>
+
+            <label for="productDescription">Descrição do Produto:</label>
+            <textarea id="productDescription" placeholder="Adicione aqui todas as especificações do produto:"
+                name="productDescription" required></textarea>
+
+            <button type="submit">Criar Cartão</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
